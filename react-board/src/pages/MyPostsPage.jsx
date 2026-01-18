@@ -23,7 +23,7 @@ export default function MyPostsPage() {
 
   return (
     <div style={{ maxWidth: 980, margin: "0 auto", padding: 20 }}>
-      <h1 style={{ fontSize: 40, margin: 0 }}>내가 쓴 게시글</h1>
+      <h1 style={{ fontSize: 40, margin: 0 }}>나의 게시글</h1>
       {error && <div style={{ color: "crimson", marginTop: 12 }}>{error}</div>}
 
       <div style={{ marginTop: 16, border: "1px solid #333", borderRadius: 16, overflow: "hidden" }}>
