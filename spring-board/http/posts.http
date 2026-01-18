@@ -1,0 +1,9 @@
+### 1) 회원가입
+POST http://localhost:8080/api/users/signup
+Content-Type: application/json
+
+{
+  "loginId": "hyo1234",
+  "nickname": "효민",
+  "password": "1234"
+}
